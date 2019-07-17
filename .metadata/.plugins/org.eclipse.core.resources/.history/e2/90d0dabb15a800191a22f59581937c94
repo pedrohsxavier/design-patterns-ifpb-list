@@ -1,0 +1,34 @@
+package gof;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SomadorAdapter implements SomadorEsperado {
+	
+	private SomadorExistente somador;
+	
+	public SomadorAdapter() {
+		this.somador = new SomadorExistente();
+	}
+	
+	@Override
+	public int somaVetor(int[] vetor) {
+		
+		List<Integer> list = new ArrayList<>();
+		for (int i = 0; i < vetor.length; i++) {
+			list.add(vetor[i]);
+		}
+		return this.somador.somaLista(list);
+		
+		
+//		int soma = 0;
+//		int i = 0;
+//		while (i < vetor.length) {
+//			soma += vetor[i];
+//			i++;
+//		}
+//		return soma;
+	}
+	
+	
+}

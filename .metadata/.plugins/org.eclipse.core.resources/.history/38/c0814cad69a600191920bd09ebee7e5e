@@ -1,0 +1,14 @@
+package gof;
+
+public class Cliente {
+
+	public static void main(String[] args) {
+		
+		TamanhoMedio r1 = new TamanhoMedio(new CocaCola());
+		TamanhoPequeno r2 = new TamanhoPequeno(new Guarana());
+		
+		r1.beber();
+		r2.beber();
+	}
+
+}

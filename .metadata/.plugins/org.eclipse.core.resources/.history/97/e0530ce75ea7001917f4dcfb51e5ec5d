@@ -1,0 +1,14 @@
+package gof;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Numero n1 = new NumeroUm(1);
+		Numero n2 = new NumeroParenteses(n1);
+		Numero n3 = new NumeroColchetes(n2);
+		
+		n3.imprimir();
+	}
+
+}

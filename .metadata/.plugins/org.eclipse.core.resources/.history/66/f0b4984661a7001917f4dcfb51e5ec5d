@@ -1,0 +1,19 @@
+package gof;
+
+public class NumeroColchetes extends NumeroDecorator {
+	
+	public NumeroColchetes(Numero numero) {
+		super(numero);
+	}
+
+	@Override
+	public String imprimir() { 
+		String str = "[";
+		str += this.getNumero().imprimir();
+		str += "]";
+		System.out.println(str);
+		return str;
+	}
+	
+	
+}

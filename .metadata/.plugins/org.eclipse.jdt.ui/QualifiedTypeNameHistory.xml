@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="gof.AbstracaoTamanho"/>
+    <fullyQualifiedTypeName name="gof.TamanhoPequeno"/>
+    <fullyQualifiedTypeName name="gof.ImplementacaoRefrigerante"/>
+    <fullyQualifiedTypeName name="gof.TamanhoGrande"/>
+    <fullyQualifiedTypeName name="gof.Fanta"/>
+    <fullyQualifiedTypeName name="gof.Pepsi"/>
+    <fullyQualifiedTypeName name="gof.TamanhoMedio"/>
+    <fullyQualifiedTypeName name="gof.Componente"/>
+    <fullyQualifiedTypeName name="gof.Numero"/>
+    <fullyQualifiedTypeName name="gof.NumeroDecorator"/>
+    <fullyQualifiedTypeName name="gof.SomadorEsperado"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="gof.MapAdapter"/>
+    <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+    <fullyQualifiedTypeName name="gof.SomadorExistente"/>
+    <fullyQualifiedTypeName name="gof.SomadorAdapter"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="gof.NumeroChaves"/>
+    <fullyQualifiedTypeName name="gof.NumeroColchetes"/>
+    <fullyQualifiedTypeName name="gof.NumeroParenteses"/>
+    <fullyQualifiedTypeName name="gof.NumeroUm"/>
+    <fullyQualifiedTypeName name="abstracao.Lista"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="implementacao.ImprimirLetra"/>
+    <fullyQualifiedTypeName name="implementacao.ImprimirMarcador"/>
+    <fullyQualifiedTypeName name="implementacao.ImprimirItem"/>
+    <fullyQualifiedTypeName name="implementacao.ImprimirNumero"/>
+    <fullyQualifiedTypeName name="abstracao.ListaOrdenada"/>
+    <fullyQualifiedTypeName name="abstracao.ListaNaoOrdenada"/>
+</qualifiedTypeNameHistroy>

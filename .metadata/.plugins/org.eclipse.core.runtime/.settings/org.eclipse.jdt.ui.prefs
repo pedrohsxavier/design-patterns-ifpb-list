@@ -1,0 +1,14 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="gof.AbstracaoTamanho"><rhs name\="gof.TamanhoPequeno"/><rhs name\="gof.TamanhoGrande"/><rhs name\="gof.TamanhoMedio"/></lhs><lhs name\="gof.TamanhoMedio"><rhs name\="gof.TamanhoMedio"/></lhs><lhs name\="gof.TamanhoPequeno"><rhs name\="gof.TamanhoPequeno"/></lhs><lhs name\="gof.TamanhoGrande"><rhs name\="gof.TamanhoGrande"/></lhs><lhs name\="gof.ImplementacaoRefrigerante"><rhs name\="gof.Fanta"/><rhs name\="gof.Pepsi"/></lhs><lhs name\="gof.Fanta"><rhs name\="gof.Fanta"/></lhs><lhs name\="gof.Pepsi"><rhs name\="gof.Pepsi"/></lhs><lhs name\="gof.Numero"><rhs name\="gof.NumeroChaves"/><rhs name\="gof.NumeroColchetes"/><rhs name\="gof.NumeroParenteses"/><rhs name\="gof.NumeroUm"/></lhs><lhs name\="java.util.HashMap"><rhs name\="gof.MapAdapter"/></lhs><lhs name\="java.util.Map"><rhs name\="gof.MapAdapter"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="gof.MapAdapter"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractMap"><rhs name\="gof.MapAdapter"/></lhs><lhs name\="gof.MapAdapter"><rhs name\="gof.MapAdapter"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="gof.SomadorExistente"><rhs name\="gof.SomadorExistente"/></lhs><lhs name\="gof.SomadorEsperado"><rhs name\="gof.SomadorAdapter"/></lhs><lhs name\="gof.SomadorAdapter"><rhs name\="gof.SomadorAdapter"/></lhs><lhs name\="implementacao.ImprimirItem"><rhs name\="implementacao.ImprimirLetra"/><rhs name\="implementacao.ImprimirMarcador"/><rhs name\="implementacao.ImprimirNumero"/></lhs></history>
+content_assist_number_of_computers=21
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=15
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

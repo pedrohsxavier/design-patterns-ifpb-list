@@ -1,0 +1,13 @@
+package gof;
+
+public class NumeroParenteses extends NumeroDecorator {
+
+	public public NumeroParenteses(Numero numero) {
+		super(numero);
+	}
+	
+	@Override
+	public void imprimir() {
+		
+	}
+}

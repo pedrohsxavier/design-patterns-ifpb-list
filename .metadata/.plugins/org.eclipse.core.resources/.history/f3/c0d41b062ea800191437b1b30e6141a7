@@ -1,0 +1,8 @@
+package abstracao;
+
+public interface Lista {
+	
+	public String adicionar(String s);
+	
+	public void imprimir();
+}

@@ -1,0 +1,10 @@
+package gof;
+
+public class TamanhoGrande extends AbstracaoTamanho {
+
+	public TamanhoGrande(ImplementacaoRefrigerante refrigerante) {
+		super(refrigerante);
+	}
+	
+	
+}

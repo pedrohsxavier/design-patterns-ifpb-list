@@ -1,0 +1,18 @@
+package gof;
+
+public class SomadorAdapter implements SomadorEsperado {
+	
+	@Override
+	public int somaVetor(int[] vetor) {
+		
+		int soma = 0;
+		int i = 0;
+		while (i < vetor.length) {
+			soma += vetor[i];
+			i++;
+		}
+		return soma;
+	}
+	
+	
+}

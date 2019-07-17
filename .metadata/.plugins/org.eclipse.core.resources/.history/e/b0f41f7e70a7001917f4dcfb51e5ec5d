@@ -1,0 +1,27 @@
+package gof;
+
+import java.util.ArrayList;
+
+public class Cliente {
+
+	public static void main(String[] args) {
+		
+		MapAdapter m1 = new MapAdapter();
+		ArrayList<Integer> k = new ArrayList<>();
+		ArrayList<Integer> v = new ArrayList<>();
+		k.add(10);
+		k.add(21);
+		v.add(11);
+		v.add(22);
+		m1.put(k, v);
+		
+		int[][] m2 = new int[][] {
+			{5, 4, 3},
+			{6, 8, 1},
+		};
+		
+		m1.setMatriz(m2);
+		System.out.println(m1);
+	}
+
+}

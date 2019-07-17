@@ -1,0 +1,24 @@
+package gof;
+
+public class NumeroUm implements Numero {
+	
+	private int valor;
+	
+	public NumeroUm(int valor) {
+		super();
+		this.valor = 1;
+	}
+
+	public int getValor() {
+		return valor;
+	}
+
+	public void setValor(int valor) {
+		this.valor = valor;
+	}
+
+	@Override
+	public void imprimir() {
+		System.out.println();
+	}
+}

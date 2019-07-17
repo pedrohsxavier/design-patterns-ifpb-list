@@ -1,0 +1,29 @@
+package view;
+
+import abstracao.Lista;
+import abstracao.ListaNaoOrdenada;
+import abstracao.ListaOrdenada;
+import implementacao.ImprimirItem;
+import implementacao.ImprimirLetra;
+import implementacao.ImprimirMarcador;
+import implementacao.ImprimirNumero;
+
+public class Cliente {
+
+	public static void main(String[] args) {
+
+		ImprimirItem marcadorLetra = new ImprimirLetra();
+		ImprimirItem marcador = new ImprimirMarcador("*");
+		ImprimirItem marcadorNumero = new ImprimirNumero();
+		
+		Lista listaOrdenada = new ListaOrdenada(marcadorNumero);
+		Lista listaNaoOrdenada = new ListaNaoOrdenada(marcador);
+		Lista listaNaoOrdenada1 = new ListaNaoOrdenada(marcadorLetra);
+		
+		listaOrdenada.adicionar("Lamborghini");
+		listaOrdenada.adicionar("Ferrari");
+		listaOrdenada.adicionar("Porsche");
+		listaOrdenada.imprimir();
+	}
+
+}

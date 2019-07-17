@@ -1,0 +1,21 @@
+package gof;
+
+public class NumeroParenteses extends NumeroDecorator {
+
+	public NumeroParenteses(Numero numero) {
+		super(numero);
+	}
+	
+	@Override
+	public void imprimir() {
+		String str = "(";
+		str += this.getNumero().imprimir();
+		str += ")";
+		System.out.println(str);
+		return str;
+		
+//		System.out.println("(");
+//		this.getNumero().imprimir();
+//		System.out.println(")");
+	}
+}
