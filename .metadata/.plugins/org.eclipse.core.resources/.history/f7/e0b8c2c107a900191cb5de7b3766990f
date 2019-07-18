@@ -32,20 +32,7 @@ public class Congresso {
 	}
 	
 	public void add(Componente c) {
-		if (c instanceof Individuo) {
-			if (totalAssentos > this.participantes.size()) {
-				this.participantes.add(c);
-			} else {
-				throw new UnsupportedOperationException("Não há assentos disponíveis!");
-			}
-		} else if (c instanceof Instituicao) {
-			if (totalAssentos > this.participantes.size() + c.getMembros()) {
-				this.participantes.add(c);
-			}else {
-				throw new UnsupportedOperationException("Não há número suficiente de assentos para instituição!");
-			}
-		}
-			
+		this.participantes.add(c);
 	}
 	
 	public void remove(Componente c) {

@@ -38,12 +38,6 @@ public class Congresso {
 			} else {
 				throw new UnsupportedOperationException("Não há assentos disponíveis!");
 			}
-		} else if (c instanceof Instituicao) {
-			if (totalAssentos > this.participantes.size() + c.getMembros()) {
-				this.participantes.add(c);
-			}else {
-				throw new UnsupportedOperationException("Não há número suficiente de assentos para instituição!");
-			}
 		}
 			
 	}

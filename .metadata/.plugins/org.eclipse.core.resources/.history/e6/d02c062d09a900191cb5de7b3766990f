@@ -28,7 +28,7 @@ public class Instituicao implements Componente {
 
 	@Override
 	public int getMembros() {
-		return this.membros.size();
+		return this.membros.size()-1;
 	}
 
 	
