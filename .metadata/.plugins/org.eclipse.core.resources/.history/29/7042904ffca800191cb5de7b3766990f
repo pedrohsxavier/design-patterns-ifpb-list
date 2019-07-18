@@ -17,10 +17,6 @@ public class Elementos {
 		this.lista.add(novo);
 	}
 	
-	public void remove(Componente c) {
-		this.lista.remove(c);
-	}
-	
 	public String toString() {
 		return this.lista.toString();
 	}

@@ -30,10 +30,6 @@ public class Pasta implements Componente {
 		this.componentes.add(c);
 	}
 	
-	public void remove(Componente c) {
-		this.componentes.remove(c);
-	}
-	
 	public String toString() {
 		return String.format("Nome da Pasta: %s %s", this.nome, this.componentes);
 	}

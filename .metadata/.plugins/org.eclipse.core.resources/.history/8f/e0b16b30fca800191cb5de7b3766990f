@@ -30,8 +30,8 @@ public class Pasta implements Componente {
 		this.componentes.add(c);
 	}
 	
-	public void remove(Componente c) {
-		this.componentes.remove(c);
+	public void remove(ArrayList<Componente> lista, Componente c) {
+		lista.remove(c);
 	}
 	
 	public String toString() {

@@ -21,10 +21,8 @@ public class Cliente {
 		p1.add(p2);
 		
 		e.add(p1);
-		//e.remove(p1);
 		
 		System.out.println(e);
-		
 	}
 
 }
