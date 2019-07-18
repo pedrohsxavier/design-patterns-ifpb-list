@@ -1,0 +1,25 @@
+package model;
+
+import composite.Componente;
+
+public class Individuo implements Componente {
+
+	private String assento;
+	
+	public Individuo(String assento) {
+		this.assento = assento;
+	}
+	
+	@Override
+	public int getAssento() {
+		return this.assento;
+	}
+
+	@Override
+	public int getMembros() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+}
