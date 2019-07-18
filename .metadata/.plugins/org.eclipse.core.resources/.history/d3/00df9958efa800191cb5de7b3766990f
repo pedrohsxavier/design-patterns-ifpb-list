@@ -1,0 +1,30 @@
+package model;
+
+import composite.Componente;
+
+public class Arquivo implements Componente {
+	
+	private String nome;
+	private int tamanho;
+	
+	public Arquivo(String nome, int tamanho) {
+		this.nome = nome;
+		this.tamanho = tamanho;
+	}
+
+	@Override
+	public String getNome() {
+		return this.nome;
+	}
+
+	@Override
+	public int getTamanho() {
+		return this.tamanho;
+	}
+
+	@Override
+	public String toString() {
+		return "Nome do Arquivo: " + nome + "- Tamanho do Arquivo: " + tamanho + " KB";
+	}
+	
+}

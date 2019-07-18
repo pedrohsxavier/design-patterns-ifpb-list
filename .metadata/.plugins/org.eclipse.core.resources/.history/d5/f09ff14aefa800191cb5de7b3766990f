@@ -1,0 +1,37 @@
+package model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import composite.Componente;
+
+public class Pasta implements Componente {
+	
+	private String nome;
+	private List<Componente> componentes;
+	
+	public Pasta(String nome) {
+		this.nome = nome;
+		this.componentes = new ArrayList<Componente>();
+	}
+	
+	@Override
+	public String getNome() {
+		return this.nome;
+	}
+	
+	@Override
+	public int getTamanho() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	public void add(Componente c) {
+		this.componentes.add(c);
+	}
+	
+	public String toString() {
+		return String.format("Nome da Pasta: %s - %s", this.nome, this.componentes);
+	}
+	
+}

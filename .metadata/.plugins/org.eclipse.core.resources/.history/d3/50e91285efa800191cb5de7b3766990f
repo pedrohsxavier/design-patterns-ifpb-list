@@ -1,0 +1,28 @@
+package view;
+
+import model.Arquivo;
+import model.Elementos;
+import model.Pasta;
+
+public class Cliente {
+
+	public static void main(String[] args) {
+
+		Elementos e = new Elementos();
+		
+		Arquivo a1 = new Arquivo("Java Tips", 266);
+		Arquivo a2 = new Arquivo("Python Tips", 741);
+		
+		Pasta p1 = new Pasta("IF Notes");
+		Pasta p2 = new Pasta("Dev Tips");
+		
+		p1.add(a1);
+		p1.add(a2);
+		p1.add(p2);
+		
+		e.add(p1);
+		
+		System.out.println(e);
+	}
+
+}

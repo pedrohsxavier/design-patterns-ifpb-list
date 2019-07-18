@@ -1,0 +1,38 @@
+package model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import composite.Componente;
+
+public class Pasta implements Componente {
+	
+	private String nome;
+	private int tamanho;
+	private List<Componente> componentes;
+	
+	public Pasta(String nome, int tamanho) {
+		this.nome = nome;
+		this.tamanho = tamanho;
+		this.componentes = new ArrayList<Componente>();
+	}
+	
+	@Override
+	public String getNome() {
+		return this.nome;
+	}
+
+	@Override
+	public int getTamanho() {
+		return this.tamanho;
+	}
+	
+	public void add(Componente c) {
+		this.componentes.add(c);
+	}
+	
+	public String toString() {
+		return String.format("Nome da Pasta: %s, Tamanho da Pasta: %d KB, %s", this.nome, this.tamanho, this.componentes);
+	}
+	
+}
