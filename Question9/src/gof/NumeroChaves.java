@@ -8,9 +8,9 @@ public class NumeroChaves extends NumeroDecorator {
 
 	@Override
 	public void imprimir() {
-		System.out.println("{");
+		System.out.print("{");
 		this.getNumero().imprimir();
-		System.out.println("}");
+		System.out.print("}");
 	}
 	
 	

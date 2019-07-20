@@ -12,6 +12,10 @@ public class Main {
 		
 		Numero m1 = new NumeroChaves(new NumeroColchetes(new NumeroParenteses(new NumeroUm(1))));
 		m1.imprimir();
+		
+		System.out.println();
+		Numero m2 = new NumeroColchetes(new NumeroParenteses(new NumeroChaves(new NumeroUm(1))));
+		m2.imprimir();
 	}
 
 }

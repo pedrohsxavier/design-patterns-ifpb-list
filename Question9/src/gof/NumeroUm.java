@@ -19,6 +19,6 @@ public class NumeroUm implements Numero {
 
 	@Override
 	public void imprimir() {
-		System.out.println(valor);
+		System.out.print(valor);
 	}
 }

@@ -8,10 +8,12 @@ import composite.Componente;
 public class Pasta implements Componente {
 	
 	private String nome;
+	//private int tamanho;
 	private List<Componente> componentes;
 	
 	public Pasta(String nome) {
 		this.nome = nome;
+		
 		this.componentes = new ArrayList<Componente>();
 	}
 	
@@ -22,8 +24,11 @@ public class Pasta implements Componente {
 	
 	@Override
 	public int getTamanho() {
-		// TODO Auto-generated method stub
-		return 0;
+		int total = 0;
+		for(Componente c : componentes) {
+			total += c.getTamanho();
+		}
+		return total;
 	}
 	
 	public void add(Componente c) {
@@ -35,7 +40,7 @@ public class Pasta implements Componente {
 	}
 	
 	public String toString() {
-		return String.format("Nome da Pasta: %s %s", this.nome, this.componentes);
+		return String.format("Nome da Pasta: %s, Tamanho da Pasta: %s KB - %s", this.nome, getTamanho(), this.componentes);
 	}
 	
 }
