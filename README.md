@@ -4,7 +4,7 @@
 
 #### Professora: Dra. Alana Morais (alanamm.prof@gmail.com)
 
-## :Avaliação: Padrões Estruturais:
+:## Avaliação: Padrões Estruturais:
 
 
 ###### Adapter
