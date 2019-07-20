@@ -6,7 +6,7 @@
 
 ***
 
-# Avaliação: Padrões Estruturais
+## Avaliação: Padrões Estruturais
 
 ##### Data da entrega: 22/07/19
 ##### Padrões utilizados: Adapter, Bridge, Composite, Decorator
