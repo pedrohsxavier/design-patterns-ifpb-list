@@ -9,5 +9,5 @@
 ## Avaliação: Padrões Estruturais
 
 ##### Data da entrega: 22/07/19
+##### Documento: [Padrões Estruturais](Lista - Padrões Estruturais.pdf)
 ##### Padrões utilizados: Adapter, Bridge, Composite, Decorator
-
