@@ -1,0 +1,17 @@
+package gof;
+
+import java.util.ArrayList;
+
+public class Cliente {
+
+	public static void main(String[] args) {
+		
+		MapAdapter m1 = new MapAdapter();
+		String[][] matrix = {{"1","2","YES"},{"3","4","YES"}};
+		
+		m1.put(matrix);
+		System.out.println(m1);
+		
+	}
+
+}

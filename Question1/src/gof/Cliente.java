@@ -20,12 +20,12 @@ public class Cliente {
 		
 		m1.put(k, v);
 		
-		int[][] m2 = new int[][] {
-			{3, 7, 5, 1},
-			{8, 2, 6, 4},
-		};
+//		int[][] m2 = new int[][] {
+//			{3, 7, 5, 1},
+//			{8, 2, 6, 4},
+//		};
+//		m1.setMatriz(m2);
 		
-		m1.setMatriz(m2);
 		System.out.println(m1);
 		
 	}

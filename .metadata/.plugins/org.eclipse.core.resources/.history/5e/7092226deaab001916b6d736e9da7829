@@ -1,0 +1,21 @@
+package gof;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class MapAdapter extends HashMap {
+
+	public ArrayList<Object> put(String[][] matriz) {
+		ArrayList<Object> mapa = new ArrayList<Object>();
+		for (String[] linha : matriz) {
+			for (String coluna : linha) {
+				int i = 0;
+				Object ob = (Object) super.put(coluna, linha);
+				lista.add(ob);
+				i++;
+			}
+		}
+		return mapa;
+	}
+	
+}

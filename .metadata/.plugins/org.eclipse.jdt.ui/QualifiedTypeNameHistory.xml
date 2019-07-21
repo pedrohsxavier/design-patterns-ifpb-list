@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="gof.Pepsi"/>
     <fullyQualifiedTypeName name="gof.TamanhoMedio"/>
     <fullyQualifiedTypeName name="gof.Componente"/>
-    <fullyQualifiedTypeName name="gof.Numero"/>
     <fullyQualifiedTypeName name="gof.NumeroDecorator"/>
     <fullyQualifiedTypeName name="gof.SomadorEsperado"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -16,10 +15,6 @@
     <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
     <fullyQualifiedTypeName name="gof.SomadorExistente"/>
     <fullyQualifiedTypeName name="gof.SomadorAdapter"/>
-    <fullyQualifiedTypeName name="gof.NumeroChaves"/>
-    <fullyQualifiedTypeName name="gof.NumeroColchetes"/>
-    <fullyQualifiedTypeName name="gof.NumeroParenteses"/>
-    <fullyQualifiedTypeName name="gof.NumeroUm"/>
     <fullyQualifiedTypeName name="abstracao.Lista"/>
     <fullyQualifiedTypeName name="implementacao.ImprimirLetra"/>
     <fullyQualifiedTypeName name="implementacao.ImprimirMarcador"/>
@@ -47,4 +42,9 @@
     <fullyQualifiedTypeName name="gof.VerificadorMinuto"/>
     <fullyQualifiedTypeName name="gof.Cronometro"/>
     <fullyQualifiedTypeName name="gof.ComponenteConcreto"/>
+    <fullyQualifiedTypeName name="gof.NumeroColchetes"/>
+    <fullyQualifiedTypeName name="gof.NumeroParenteses"/>
+    <fullyQualifiedTypeName name="gof.NumeroChaves"/>
+    <fullyQualifiedTypeName name="gof.Numero"/>
+    <fullyQualifiedTypeName name="gof.NumeroUm"/>
 </qualifiedTypeNameHistroy>
