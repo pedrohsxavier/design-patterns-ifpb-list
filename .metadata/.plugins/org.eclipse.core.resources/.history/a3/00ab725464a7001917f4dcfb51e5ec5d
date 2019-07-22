@@ -1,8 +1,0 @@
-package gof;
-
-public class ComponenteConcreto implements Componente {
-	
-	private Componente componente;
-	
-	public void executarTarefa() { Thread.sleep(2000); }
-}

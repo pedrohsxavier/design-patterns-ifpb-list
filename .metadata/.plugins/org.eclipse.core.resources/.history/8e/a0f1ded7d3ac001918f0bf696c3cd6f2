@@ -14,21 +14,20 @@ public class Cliente {
 		k.add(2);
 		k.add(3);
 		k.add(4);
-		k.add(5);
 		v.add(10);
 		v.add(20);
 		v.add(30);
 		v.add(40);
-		v.add(50);
 		
-		m1.put(k, v);
+		//m1.put(k, v);
 		
-//		int [][] matriz = new int[][] {
-//			{1,2,3,4,5},
-//			{5,6,7,8,9},
-//		};
+		int [][] matriz = new int[][] {
+			{1,2,3,4,5},
+			{5,6,7,8,5},
+		};
 		
-//		m1.setMatriz(matriz);
+		//System.out.println(m1);
+		m1.setMatriz(matriz);
 		System.out.println(m1);
 		
 	}
