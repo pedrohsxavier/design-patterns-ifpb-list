@@ -9,5 +9,5 @@
 ## Avaliação: Padrões Estruturais
 
 ##### Data da entrega: 22/07/19
-##### Documento: [Padrões Estruturais](https://github.com/pedrohsxavier/design-patterns-ifpb-list/blob/master/Lista%20-%20Padr%C3%B5es%20Estruturais.pdf)
+##### Documento da avaliação: [Padrões Estruturais](https://github.com/pedrohsxavier/design-patterns-ifpb-list/blob/master/Lista%20-%20Padr%C3%B5es%20Estruturais.pdf)
 ##### Padrões utilizados: Adapter, Bridge, Composite, Decorator
